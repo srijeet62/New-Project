@@ -3,14 +3,15 @@ The problem is to develop an earthquake prediction model using a Kaggle dataset.
 
 DESIGN APPROACH:
 1. Choosing appropriate data source   
-2. Feature selection                              
-3. Visualization
-4. Data splitting
-5.Model development
-6. Model training 
-7. Model evaluation
-8. Iterative refinement
-9.Deployment
+2. Feature selection
+3. Data manipulation                           
+4. Visualization
+5. Data splitting
+6.Model development
+7. Model training 
+8. Model evaluation
+9. Iterative refinement
+10. Deployment
 
 1. DATA SOURCE: 
 Choosing a suitable Kaggle dataset containing earthquake data with features like date, time, latitude, longitude, depth, and magnitude.
@@ -30,8 +31,9 @@ Acknowledgements: The United States Geological Survey (USGS)
 
 'Date', 'Time', 'Latitude', 'Longitude', 'Type', 'Depth', 'Depth Error', 'Depth Seismic Stations', 'Magnitude', 'Magnitude Type', 'Magnitude Error', 'Magnitude Seismic Stations', 'Azimuthal Gap', 'Horizontal Distance', 'Horizontal Error', 'Root Mean Square', 'ID', 'Source', 'Location Source', 'Magnitude Source', 'Status'
 
- 4. VISUALIZATION:
+4. VISUALIZATION:
  Create a world map visualization to display earthquake frequency distribution.
+
 5. DATA SPLITTING: 
 In machine learning, datasets are often divided into two subsets: a training set and a testing (or validation) set. The training set is used to train a machine learning model, while the testing set is used to assess the model's performance and generalization to unseen data.
 
@@ -44,8 +46,8 @@ Build a neural network model for earthquake magnitude prediction. Building a neu
 8. MODEL EVALUATION: 
 Post-training, the model's performance is assessed on the testing set. 
 
-8.ITERATIVE REFINEMENT:
+9.ITERATIVE REFINEMENT:
 Iterate through the process, refining features and tuning hyperparameters to improve the model's accuracy and reliability. This iterative process underpins neural network applications in machine learning, image and speech recognition, and natural language processing, where models learn patterns and relationships in data inspired by the human brain's interconnected neurons.
 
-9. DEPLOYMENT AND MONITORING:
+10. DEPLOYMENT AND MONITORING:
 	Once we achieved a model with great accuracy, we will deploy it for real-time applications. The model is updated by monitoring its performance over time.
